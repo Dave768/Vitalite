@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservas.css">
+    <title>Gestor de Reservas</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h2>Formulario de reserva</h2>
+            <form action="mailto:caam2298@gmail.com" enctype="multipart/form-data" method="post" name="formulario_html5" autocomplete="off">
+                <label for="nombre">Nombre</label></br>
+                <input type="text" name="nombre" id="nombre" class="cajas"></br>
+    
+                <label for="email">Email</label></br>
+                <input type="email" name="email" id="email" class="cajas"></br>
+    
+                <label for="tratamientos">Tratamientos</label></br>
+                <input type="text" name="tratamientos" id="tratamientos" class="cajas"> </br>
+
+                <label for="esteticista">Esteticista</label></br>
+                <select name="esteticista" id="esteticista">
+                    <option value="mariela">Mariela</option>
+                    <option value="nadia">Nadia</option>
+                </select></br>
+
+                <label for="telefono">Teléfono</label></br>
+                <input type="number" name="telefono" id="telefono" class="cajas"></br>
+    
+                <label for="fecha-y-hora">Fecha y hora del turno</label></br>
+                <input type="datetime-local" id="fecha-y-hora" name="fecha-hora-del-turno" class="cajas">
+                </br>
+    
+                <input type="submit" value="enviar" name="submit" class="btn">
+    
+            </form>
+    
+    
+    
+        </div>
+    </div>
+</body>
+</html>
